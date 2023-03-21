@@ -13,18 +13,17 @@
 </head>
 
 <body>
-    <div class="wrapper">
 
-        <header>
-
+        <header class="primary wrapper">
+            
             <div class="logo">
                 <a href="#" class="logo">
                     <img src="assets/logo.svg" alt="logo">
-                    <h1>Couply</h1>
+                    <p>Couply</p>
                 </a>
             </div>
 
-            <nav>
+            <nav class="hide-mobile">
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">Coupons</a></li>
@@ -33,10 +32,16 @@
                 </ul>
             </nav>
 
-            <div class="navBtn">
+            <div class="navBtn hide-mobile">
                 <a href="#" class="headerCta">
                     <p>Start Saving</p>
                     <img src="assets/arrow.svg" alt="arrow">
+                </a>
+            </div>
+
+            <div class="hamburger hide-tablet">
+                <a href="#">
+                    <img src="assets/hamburger.svg" alt="menu">
                 </a>
             </div>
 
@@ -44,14 +49,14 @@
         </header>
 
         <section class="hero">
-
+            
             <div class="leftCol">
                 <h1>Shopping with coupons, applied automatically!</h1>
                 <div class="peopleList">
                     <p>Used by over 500,000 peeps</p>
-                    <img src="assets/peopleList.svg" alt="people">
+                    <img src="assets/peopleList.svg" class="mainPeople" alt="people">
                 </div>
-                <div class="personReview">
+                <div class="personReview hide-mobile">
                     <div class="onePerson">
                         <img src="assets/onePerson.svg" alt="one-person">
                     </div>
@@ -62,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="rightCol">
+            <div class="rightCol wrapper">
 
                 <div class="threeThings">
                     <div class="theThings">
@@ -83,7 +88,6 @@
                         <p>Install Extension</p>
                         <img src="assets/arrow.svg" alt="arrow">
                     </a>
-
                 </div>
 
             </div>
@@ -92,12 +96,16 @@
 
 
         <section class="storeReps">
-            <img src="assets/amazon.svg" alt="amazon">
-            <img src="assets/bestbuy.svg" alt="bestbuy">
-            <img src="assets/shopify.svg" alt="shopify">
-            <img src="assets/walmart.svg" alt="walmart">
+            <div class="topRow">
+                <img src="assets/amazon.svg" class="amazon" alt="amazon">
+                <img src="assets/bestbuy.svg" class="bestbuy" alt="bestbuy">
+            </div>
+            <div class="botRow">
+                <img src="assets/shopify.svg" class="shopify" alt="shopify">
+                <img src="assets/walmart.svg" class="walmart" alt="walmart">
+            </div>
             <div class="viewAllBrands">
-                <a href="#">
+                <a href="#" class="hide-mobile">
                     <img src="assets/eye.svg" alt="view">
                     <p>View all brands</p>
                 </a>
@@ -107,36 +115,40 @@
 
         <main class="itemsForSale">
 
-            <div class="nikeShoes">
+            <div class="nikeShoes cardItem">
                 <a href="#">
-                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="itemPic"
                         alt="nike">
                     <div class="nikeInfo">
                         <h3>Women's Nike Shoes</h3>
                         <p>$69</p>
-                </a>
-            </div>
-            <div class="arrows">
+                    </div>
+                    </a>
+                </div>
+            
+            <div class="arrows cardItem">
                 <a href="#">
                     <h3>Quiky Arrows</h3>
                     <div class="arrowInfo">
-                        <img src="https://images.unsplash.com/photo-1528037316938-a1faa7812673?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                        <img src="https://images.unsplash.com/photo-1528037316938-a1faa7812673?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="itemPic"
                             alt="arrow">
                         <p>$14</p>
                     </div>
                 </a>
             </div>
-            <div class="headphones">
+            
+            <div class="headphones cardItem">
                 <a href="#">
                     <h3>SkullCrusher Headphones</h3>
                     <div class="headphoneInfo">
-                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="itemPic"
                             alt="headphones">
                         <p>$99</p>
                     </div>
                 </a>
             </div>
-            <div class="heals">
+            
+            <div class="heals hide-mobile">
                 <a href="#">
                     <h3>Heals</h3>
                     <div class="healsInfo">
@@ -146,16 +158,19 @@
                     </div>
                 </a>
             </div>
-            <div class="sunglasses">
+            
+            <div class="sunglasses hide-mobile">
                 <a href="#">
                     <img src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                         alt="sunglasses">
                     <div class="sunglassesInfo">
                         <p>Cool Shades</p>
                         <p>$20</p>
+                    </div>
                 </a>
             </div>
-            <div class="juice">
+            
+            <div class="juice hide-mobile">
                 <a href="#">
                     <h3>Juice Package</h3>
                     <div class="juiceInfo">
@@ -178,12 +193,12 @@
 
 
         <footer>
-            <nav class="footer">
-                
-                <div class="logo">
-                    <a href="#" class="logo">
+            <div class="footer">
+
+                <div class="footerLogo">
+                    <a href="#" class="footerLogo">
                         <img src="assets/logo.svg" alt="logo">
-                        <h1>Couply</h1>
+                        <p class="botLogo">Couply</p>
                     </a>
                 </div>
 
@@ -196,7 +211,7 @@
                     </ul>
                 </nav>
 
-            </nav>
+            </div>
 
             <aside class="footer">
 
@@ -207,15 +222,12 @@
                     <div class="contact">
                         <p>contact@couply.com</p>
                     </div>
-                </div> 
+                </div>
 
                 <p>Copyright 2022-2023 @ Couply LLC</p>
 
             </aside>
         </footer>
-
-
-    </div>
 
 </body>
 

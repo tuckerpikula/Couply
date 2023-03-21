@@ -3,3 +3,332 @@
 
 // Header
 
+header.primary {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.logo {
+    display: flex;
+    gap: .3em;
+    color: black;
+    font-weight: bold;
+    font-size: 2.4rem;
+    align-items: center;
+}
+
+.logo p {
+    padding: 0;
+    margin: 0;
+}
+
+// hero section
+
+section.hero {
+    border-top: 1px solid black;
+    margin-top: 1em;
+}
+
+.leftCol {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1.2em;
+    text-align: center;
+}
+
+.peopleList {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.leftCol p {
+    margin: 0;
+    font-size: 1.6rem;
+    padding-top: 1.3em;
+}
+
+.mainPeople {
+    width: 205px;
+    height: 56px;
+    padding-bottom: 3em;
+}
+
+.rightCol {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.2em;
+}
+
+.threeThings {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.theThings {
+    display: flex;
+    gap: 2em;
+}
+
+.threeThings p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+span {
+    color: var(--span-color);
+}
+
+.heroCta a {
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    justify-content: center;
+}
+
+.heroCta p {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.heroCta {
+    background-color: var(--secondary-color);
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 4px;
+    margin: 5em 0;
+    padding: 1em;
+}
+
+
+// store reps
+
+.storeReps {
+    height:250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding:5em;
+    gap: 7em;
+    position: relative;
+}
+
+.amazon {
+    height: 26px;
+    width: 88px;
+}
+.bestbuy {
+    height: 36px;
+    width: 63px;
+}
+.shopify {
+    height: 30px;
+    width: 106px;
+}
+.walmart {
+    height: 26px;
+    width: 107px;
+}
+
+.topRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+// items for sale
+
+main {
+    margin-top: -10em;
+}
+
+.itemsForSale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8em;
+    background-color: white;
+}
+
+.cardItem {
+    width: 35em;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 #000000;
+    border-radius: 4px;
+}
+
+.cardItem h3 {
+    margin: 0;
+    color: black;
+}
+
+.itemPic {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+
+.nikeShoes {
+    position: relative;
+}
+
+.nikeInfo h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nikeInfo p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-top-left-radius: 3px;
+}
+
+
+.arrows {
+    position: relative;
+}
+
+.arrows h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+}
+
+.arrows p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-top-left-radius: 3px;
+}
+
+.headphones {
+    position: relative;
+}
+
+.headphones h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+}
+
+.headphones p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-top-left-radius: 3px;
+}
+
+.viewAllOffers {
+    background-color: white;
+    align-items: center;
+    color: black;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border-bottom: 1px solid black;
+}
+
+.viewAllOffers a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewAllOffers img {
+    color: black;
+}
+
+.viewAllOffers p {
+    color: black;
+    font-size: 2.6rem;
+    text-decoration: underline;
+}
+
+
+// footer
+
+footer {
+    padding-top: 3.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo {
+    display: flex;
+    font-size: 2.4rem;
+    color: black;
+    gap: .3em;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+ }
+
+footer nav ul {
+    display: flex;
+    gap: 3em;
+    padding-top: 10em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

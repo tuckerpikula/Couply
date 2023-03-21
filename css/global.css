@@ -9,13 +9,22 @@ body {
 }
 
 .wrapper {
-  margin: 2em;
+  margin: 0 2em;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+li {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
 }
 
 svg {
